@@ -1,0 +1,5 @@
+Credentials cache: API:C997C7AA-2B6F-40A7-A93F-04122E553449
+        Principal: hboidin@42.FR
+
+		  Issued                Expires             Flags    Principal
+		  Aug 27 13:52:34 2018  Sep  3 13:52:21 2018  FPIA   krbtgt/42.FR@42.FR
