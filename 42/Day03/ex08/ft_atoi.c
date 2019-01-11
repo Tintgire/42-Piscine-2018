@@ -10,6 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
 int		ft_atoi(char *str)
 {
 	int i;
@@ -34,4 +39,12 @@ int		ft_atoi(char *str)
 		i++;
 	}
 	return (receive * sign);
+}
+
+int		main(int argc, char **argv)
+{
+	(void)argc;
+	printf("Le mien %d\n",ft_atoi(argv[1]));
+	printf("Le sien %d",atoi(argv[1]));
+	return (0);
 }
